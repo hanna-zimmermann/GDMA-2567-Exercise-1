@@ -44,7 +44,7 @@
 -------------------------------------------------------------- */
 
 
-* html {
+* {
 }
 
 /*--------------------------------------------------------------
@@ -66,22 +66,26 @@
 
 /* -- FRAMEWORK -- */ 
 
-.wrapper {
-	width: 80%;
-	margin: 0 auto;
-}
-
-.row{ 
-     content: ""; 
-     display: table;
-     clear: both;
-}
 
 
 /*--------------------------------------------------------------
 6.0 - COMPONENTS
 -------------------------------------------------------------- */
+.test-box {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+}
+
+.bg-ppl {
+	background-color: orange;
+}
+
+.bg-gray {
+	background-color: lightgray
+}
 /* -- TYPE -- */ 
+
 
 
 
