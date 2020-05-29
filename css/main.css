@@ -45,6 +45,7 @@
 
 
 * {
+	font-family: 'Roboto', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -52,6 +53,15 @@
 -------------------------------------------------------------- */
 
 /* -- TYPOGRAPHY -- */ 
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -86,7 +96,9 @@
 }
 /* -- TYPE -- */ 
 
-
+header div:first-child { 
+	text-align: center; 
+}
 
 
 /* -- LAYOUT -- */ 
@@ -96,7 +108,25 @@
 
 /* -- HEADERS -- */ 
 
+header li {
+	display: inline-block;
+}
 
+.btn-red {
+	color: #FF4C4C;
+}
+
+h1, nav{
+	color: #1C3466;
+}
+
+.bg-gray {
+	background-color: #F7F7F7;
+}
+
+footer li {
+	color: #EBEBEB;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 }
 
@@ -105,7 +135,6 @@
 -------------------------------------------------------------- */
 
 /* -- ALLIGNMENT -- */ 
-
 
 
 
