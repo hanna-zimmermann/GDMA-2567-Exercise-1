@@ -96,8 +96,14 @@ li {
 }
 /* -- TYPE -- */ 
 
-header div:first-child { 
-	text-align: center; 
+
+
+.bg-blue {
+	background:white;
+}
+
+.bg-blue ul a{
+	color: white;
 }
 
 
@@ -112,7 +118,7 @@ header li {
 	display: inline-block;
 }
 
-.btn-red {
+.btn-red a {
 	color: #FF4C4C;
 }
 
@@ -127,9 +133,25 @@ h1, nav{
 footer li {
 	color: #EBEBEB;
 }
+
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	
+
 }
 
+@media screen and (min-width: 1024px) {
+	
+	.bg-blue {
+		background:pink;}
+}
+
+.bg-group-ppl {
+	background-image: url(../img/group-ppl@2x.jpg);
+	backgrougn-size: cover;
+	background-repeat: no-repeat;
+}
 /*--------------------------------------------------------------
 7.0 - UTILITES
 -------------------------------------------------------------- */
